@@ -1,7 +1,7 @@
 .header-top-nav {
   height: 42px;
   background-color: $blue-color;
-  font-size: 12px;
+  font-size: 0.75rem;
 
 }
 
@@ -29,7 +29,7 @@
 .live-info {
   color: white;
   height: 100%;
-  font-size: 12px;
+  font-size: 0.75rem;
   display: flex;
   align-items: center;
 }
@@ -44,6 +44,9 @@
   width: 40px;
   padding: 0;
   margin: 0 10px;
+}
+
+.live-icon__off {
 }
 
 .live-text {
@@ -115,4 +118,19 @@
 
 .twitter-icon {
   background-image: url('../img/header/twitter-icon.png');
+}
+
+
+.main-nav-container {
+  height: 64px;
+  // background-color: lawngreen;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
 }

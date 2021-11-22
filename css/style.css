@@ -254,7 +254,7 @@ body {
 .header-top-nav {
   height: 42px;
   background-color: #143468;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .header-top-nav-container {
@@ -289,7 +289,7 @@ body {
 .live-info {
   color: white;
   height: 100%;
-  font-size: 12px;
+  font-size: 0.75rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -382,5 +382,22 @@ body {
 
 .twitter-icon {
   background-image: url("../img/header/twitter-icon.png");
+}
+
+.main-nav-container {
+  height: 64px;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
