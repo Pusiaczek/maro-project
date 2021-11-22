@@ -1,0 +1,118 @@
+.header-top-nav {
+  height: 42px;
+  background-color: $blue-color;
+  font-size: 12px;
+
+}
+
+.header-top-nav-container {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+}
+
+.header-top-nav__list {
+  list-style: none;
+  display: flex;
+  color: white;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.header-top-nav_list-item {
+  margin: 0 10px;
+}
+
+.live-info {
+  color: white;
+  height: 100%;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.live-icon {
+  background-image: url('../img/header/live-icon.png');
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  height: 100%;
+  width: 40px;
+  padding: 0;
+  margin: 0 10px;
+}
+
+.live-text {
+  display: inline-block;
+  margin: 0;
+  margin-top: 5px;
+  padding: 0;
+  font-weight: 700;
+}
+
+.live-title__highlighted {
+  color: $red-color
+}
+
+.live-desc {
+  font-weight: initial;
+}
+
+
+
+
+
+.header-bg {
+  height: 220px;
+  background-color: $light-blue-color;
+  background-image: radial-gradient(circle at 30% 0%, rgba(255,255,255,0.05) 0%, rgba(0,0,0,0) 75%);
+}
+
+.header-bg-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-image: url('../img/header/header-bg.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  
+}
+
+.header-bg-itv-logo {
+  height: 60%;
+  margin-left: 50px;
+  align-self: center;
+}
+
+.header-bg-socials {
+  align-self: end;
+  display: flex;
+  // background-color: khaki;
+  margin-bottom: 35px;
+  margin-right: 95px;
+  color: white;
+}
+
+.social-icon {
+  height: 38px;
+  width: 38px;
+  align-self: flex-end;
+  display: block;
+  background-size: inherit;
+  background-position: center;
+  background-size: cover;
+  margin: 5px;
+}
+
+.fb-icon {
+  background-image: url('../img/header/fb-icon.png');
+  
+}
+
+.twitter-icon {
+  background-image: url('../img/header/twitter-icon.png');
+}
