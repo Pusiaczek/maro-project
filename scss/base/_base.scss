@@ -9,10 +9,16 @@ body {
 }
 
 .container {
-    width: 1200px;
+    width: $container-width-xsm;
     margin: auto;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+  
+}
 
 
 // p, input {
@@ -55,20 +61,33 @@ body {
 
 
 
-// @media (min-width: 768px) {
-//     .container {
-//         width: $container-width-md;
-//     }
-
-//     section {
-//         padding: 60px 0;
-//     }
+@media (min-width: 480px) {
+    .container {
+        width: $container-width-sm;
+    }
+    // section {
+    //     padding: 60px 0;
+    // }
     
-// }
+}
 
-// @media (min-width: 1200px) {
-//     .container {
-//         width: $container-width-lg;
-//     }
+@media (min-width: 768px) {
+    .container {
+        width: $container-width-md;
+    }
 
-// }
+}
+
+@media (min-width: 1024px) {
+  .container {
+      width: $container-width-lg;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .container {
+      width: $container-width-xlg;
+  }
+
+}

@@ -13,17 +13,11 @@ $main-section-title-font-size: 50px;
 $card-header-font-size: 22px;
 
 
-$container-width-md: 720px;
-$container-width-lg: 1140px;
+$container-width-xsm: 100%;
+$container-width-sm: 95%;
+$container-width-md: 760px;
+$container-width-lg: 968px;
+$container-width-xlg: 1200px;
 
 $main-font: 'Roboto', sans-serif;
 $secondary-font: 'Bellota', cursive;
-
-
-@media (min-width: 576px) {
-
-}
-
-@media (min-width: 1200px) {
-
-}
